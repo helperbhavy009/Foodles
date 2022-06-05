@@ -29,7 +29,12 @@
             class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold"
           >
             <span>+</span>
-            <span class="ml-4">Add</span>
+          </button>
+          <button
+            data-pizza="<%= JSON.stringify(pizza) %>"
+            class="remove-from-cart py-1 px-6 rounded-full flex items-center font-bold"
+          >
+            <span>-</span>
           </button>
         </div>
       </div>

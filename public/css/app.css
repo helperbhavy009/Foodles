@@ -303,17 +303,17 @@ section.hero {
   background: #f8f8f8;
 }
 
-.add-to-cart {
+.add-to-cart, .remove-from-cart {
   border: 2px solid #ADA3D4;
   color: #ADA3D4;
   transition: all 0.3s ease-in-out;
 }
-.add-to-cart:hover {
+.add-to-cart:hover, .remove-from-cart:hover {
   background: #ADA3D4;
   border-color: #fff;
   color: #fff;
 }
-.add-to-cart:focus {
+.add-to-cart:focus, .remove-from-cart:focus {
   outline: none;
 }
 
