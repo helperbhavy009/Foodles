@@ -28,8 +28,9 @@
       </div>
       <div>
         <ul class="flex items-center">
+          <%if(typeof user === "undefined" || user.role === "customer"){%>
           <li class="ml-6"><a href="/">Menu</a></li>
-          <%if(user) { %>
+          <%}%><%if(user) { %>
           <li class="ml-6">
             <form id="logout" action="/logout" method="POST">
               <a onclick="document.getElementById('logout').submit()" href="#"
